@@ -1,3 +1,13 @@
+"""
+Problem statement : Given a number in range 0-30 (both inclusive), split the given number into 2 random parts such that no part is greater than 15.
+Example: split the number 26 into two random numbers (x,y) such that 0<=x<=15, 0<=y<=15 x+y = 26
+
+Assume that the excel file for input has only one column named as 'data' which contains a list of such numbers to be split into random parts
+"""
+
+# Code :
+
+
 import random
 import pandas as pd
 
